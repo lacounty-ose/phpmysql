@@ -2,5 +2,5 @@
    RewriteEngine on
    RewriteRule    ^phpdbtesting.php$ phpdbtesting.php    [L]
    RewriteRule    ^$ opt/app-root/src    [L]
-   RewriteRule    (.*) opt/app-root/src/$1 [L]
+   #RewriteRule    (.*) opt/app-root/src/$1 [L]
 </IfModule>
