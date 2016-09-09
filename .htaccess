@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
    RewriteEngine on
    RewriteRule    ^phpdbtesting.php$ phpdbtesting.php    [L]
-   RewriteRule    ^$ opt/app-root/src    [L]
+   #RewriteRule    ^$ opt/app-root/src    [L]
+   #RewriteRule ^$ /phpdbtesting.php [L,R=301]
    #RewriteRule    (.*) opt/app-root/src/$1 [L]
 </IfModule>
