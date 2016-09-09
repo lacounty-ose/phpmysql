@@ -7,7 +7,7 @@
 
 <?php
 
-  $con = mysqli_connect("127.0.0.1", "root", "newpassword", "information_schema", "3306" );
+  $con = mysqli_connect("127.0.0.1", "simple", "newpassword", "information_schema", "3306" );
   if (!$con) {
      exit('Connect Error (' . mysqli_connect_errno() . ') '
             . mysqli_connect_error());
