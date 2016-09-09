@@ -7,7 +7,7 @@
 
 <?php
 
-  $con = mysqli_connect("localhost", "simple", "newpassword", "information_schema", "3306" );
+  $con = mysqli_connect("mysql-Hiten", "simple", "newpassword", "information_schema", "3306" );
   if (!$con) {
      exit('Connect Error (' . mysqli_connect_errno() . ') '
             . mysqli_connect_error());
